@@ -6,4 +6,8 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="categoOne">CATEGORY 1</string>
+    <string name="CategoTwo">CATEGORY 2</string>
+    <string name="CategoThree">CATEGORY 3</string>
+    <string name="categoFour">CATEGORY 4</string>
 </resources>
