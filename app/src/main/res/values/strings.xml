@@ -13,5 +13,9 @@
     <string name="about">About</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">FRAGMENT TEXT</string>
+    <string name="categoOne">CATEGORY 1</string>
+    <string name="CategoTwo">CATEGORY 2</string>
+    <string name="CategoThree">CATEGORY 3</string>
+    <string name="categoFour">CATEGORY 4</string>
 </resources>

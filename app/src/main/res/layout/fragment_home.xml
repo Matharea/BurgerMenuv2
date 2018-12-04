@@ -1,14 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/categoOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="143dp"
+            android:layout_marginRight="143dp"
+            android:background="@drawable/colorsbutton"
+            android:padding="5dp"
+            android:text="@string/categoOne"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/categoTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="143dp"
+            android:layout_marginRight="143dp"
+            android:background="@drawable/colorsbutton"
+            android:padding="5dp"
+            android:text="@string/CategoTwo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoOne" />
+
+        <Button
+            android:id="@+id/categoThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="143dp"
+            android:layout_marginRight="143dp"
+            android:background="@drawable/colorsbutton"
+            android:padding="5dp"
+            android:text="@string/CategoThree"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoTwo" />
+
+        <Button
+            android:id="@+id/categoFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="143dp"
+            android:layout_marginRight="143dp"
+            android:background="@drawable/colorsbutton"
+            android:padding="5dp"
+            android:text="@string/categoFour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoThree" />
+    </android.support.constraint.ConstraintLayout>
 
 </FrameLayout>
