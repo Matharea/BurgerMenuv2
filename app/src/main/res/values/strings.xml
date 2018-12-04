@@ -6,4 +6,6 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="burger">The big one</string>
+    <string name="coconut">The coconut nut is a giant nut \nIf you eat too much, you\'ll get very fat\nNow, the coconut nut is a big, big nut\nBut this delicious nut is not a nut</string>
 </resources>
